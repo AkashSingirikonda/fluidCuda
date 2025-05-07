@@ -1,0 +1,22 @@
+# Python virtual environment
+visualizer/venv/
+visualizer/plots/
+
+# Build directory
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled files
+*.o
+*.so
+*.out
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile 
