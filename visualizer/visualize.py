@@ -125,10 +125,12 @@ def process_all_frames(start_frame=0, end_frame=100, grid_size=128):
     """Process all frames in the range and save visualizations"""
     for frame in range(start_frame, end_frame):
         filename = f"./renderData/density_{frame:04d}.bin"
+        velocity_filename = f"./renderData/velocityX_{frame:04d}.bin"
         if os.path.exists(filename):
             print(f"Processing frame {frame}...")
             visualize_density_slices(filename, grid_size)
-            visualize_volume(load_density_file(filename, grid_size), frame)
+            #visualize_density_slices(velocity_filename, grid_size)
+            #visualize_volume(load_density_file(filename, grid_size), frame)
         else:
             print(f"Warning: File {filename} not found")
 
@@ -137,7 +139,7 @@ if __name__ == "__main__":
     os.makedirs('plots', exist_ok=True)
     
     # Process all frames from 0 to 99
-    process_all_frames(0, 10, 9)
+    process_all_frames(0, 250, 81)
     
     print("\nAll visualizations have been saved to the 'plots' directory")
     print("Files are named as:")
