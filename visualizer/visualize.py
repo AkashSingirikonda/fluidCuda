@@ -139,7 +139,7 @@ if __name__ == "__main__":
     os.makedirs('plots', exist_ok=True)
     
     # Process all frames from 0 to 99
-    process_all_frames(0, 250, 81)
+    process_all_frames(0, 100, 64)
     
     print("\nAll visualizations have been saved to the 'plots' directory")
     print("Files are named as:")
