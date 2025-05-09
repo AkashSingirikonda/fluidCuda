@@ -4,6 +4,7 @@ project(fluidCuda CUDA CXX)
 # Set CUDA specific flags
 set(CMAKE_CUDA_STANDARD 14)
 set(CMAKE_CUDA_STANDARD_REQUIRED ON)
+set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} --extended-lambda")
 
 # Find required packages
 find_package(CUDA REQUIRED)

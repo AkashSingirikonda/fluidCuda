@@ -1,7 +1,7 @@
 # Python virtual environment
 visualizer/venv/
 visualizer/plots/
-
+visualizer/renderData/
 # Build directory
 build/
 
