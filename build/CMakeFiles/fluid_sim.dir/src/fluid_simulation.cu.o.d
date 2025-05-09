@@ -146,18 +146,29 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o : /home/asingir1/cs0320/fluid
     /local/projects/cuda12/cuda12.2.2/bin/../targets/x86_64-linux/include/surface_indirect_functions.h \
     /local/projects/cuda12/cuda12.2.2/bin/../targets/x86_64-linux/include/crt/cudacc_ext.h \
     /local/projects/cuda12/cuda12.2.2/bin/../targets/x86_64-linux/include/device_launch_parameters.h \
+    /usr/include/c++/12/functional \
+    /usr/include/c++/12/bits/stl_function.h \
+    /usr/include/c++/12/bits/move.h \
+    /usr/include/c++/12/type_traits \
+    /usr/include/c++/12/backward/binders.h \
+    /usr/include/c++/12/tuple \
+    /usr/include/c++/12/bits/stl_pair.h \
+    /usr/include/c++/12/bits/utility.h \
+    /usr/include/c++/12/bits/uses_allocator.h \
+    /usr/include/c++/12/bits/invoke.h \
+    /usr/include/c++/12/bits/functional_hash.h \
+    /usr/include/c++/12/bits/hash_bytes.h \
+    /usr/include/c++/12/bits/refwrap.h \
+    /usr/include/c++/12/bits/std_function.h \
+    /usr/include/c++/12/typeinfo \
+    /usr/include/c++/12/bits/functexcept.h \
+    /usr/include/c++/12/bits/exception_defines.h \
     /usr/include/c++/12/utility \
     /usr/include/c++/12/bits/stl_relops.h \
-    /usr/include/c++/12/bits/stl_pair.h \
-    /usr/include/c++/12/type_traits \
-    /usr/include/c++/12/bits/move.h \
-    /usr/include/c++/12/bits/utility.h \
     /usr/include/c++/12/initializer_list \
     /home/asingir1/cs0320/fluidCuda/include/fluid_simulation.h \
     /usr/include/c++/12/vector \
     /usr/include/c++/12/bits/stl_algobase.h \
-    /usr/include/c++/12/bits/functexcept.h \
-    /usr/include/c++/12/bits/exception_defines.h \
     /usr/include/c++/12/ext/numeric_traits.h \
     /usr/include/c++/12/bits/stl_iterator_base_types.h \
     /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
@@ -177,12 +188,6 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o : /home/asingir1/cs0320/fluid
     /usr/include/c++/12/bits/alloc_traits.h \
     /usr/include/c++/12/bits/stl_vector.h \
     /usr/include/c++/12/bits/stl_bvector.h \
-    /usr/include/c++/12/bits/functional_hash.h \
-    /usr/include/c++/12/bits/hash_bytes.h \
-    /usr/include/c++/12/bits/refwrap.h \
-    /usr/include/c++/12/bits/invoke.h \
-    /usr/include/c++/12/bits/stl_function.h \
-    /usr/include/c++/12/backward/binders.h \
     /usr/include/c++/12/bits/range_access.h \
     /usr/include/c++/12/bits/vector.tcc \
     /usr/include/c++/12/string \
@@ -220,4 +225,13 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o : /home/asingir1/cs0320/fluid
     /usr/include/asm-generic/errno-base.h \
     /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
     /usr/include/c++/12/bits/charconv.h \
-    /usr/include/c++/12/bits/basic_string.tcc
+    /usr/include/c++/12/bits/basic_string.tcc \
+    /usr/include/c++/12/algorithm \
+    /usr/include/c++/12/bits/stl_algo.h \
+    /usr/include/c++/12/bits/algorithmfwd.h \
+    /usr/include/c++/12/bits/stl_heap.h \
+    /usr/include/c++/12/bits/stl_tempbuf.h \
+    /usr/include/c++/12/bits/uniform_int_dist.h \
+    /usr/include/c++/12/numeric \
+    /usr/include/c++/12/bits/stl_numeric.h \
+    /usr/include/c++/12/bit

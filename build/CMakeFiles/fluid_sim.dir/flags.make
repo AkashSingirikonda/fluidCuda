@@ -7,7 +7,7 @@ CUDA_DEFINES =
 
 CUDA_INCLUDES = --options-file CMakeFiles/fluid_sim.dir/includes_CUDA.rsp
 
-CUDA_FLAGS = -std=c++14
+CUDA_FLAGS =  --extended-lambda -std=c++14
 
 CXX_DEFINES = 
 

@@ -149,18 +149,29 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o: /home/asingir1/cs0320/fluidC
   /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/surface_indirect_functions.h \
   /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/cudacc_ext.h \
   /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/device_launch_parameters.h \
+  /usr/include/c++/12/functional \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/type_traits \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/std_function.h \
+  /usr/include/c++/12/typeinfo \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/exception_defines.h \
   /usr/include/c++/12/utility \
   /usr/include/c++/12/bits/stl_relops.h \
-  /usr/include/c++/12/bits/stl_pair.h \
-  /usr/include/c++/12/type_traits \
-  /usr/include/c++/12/bits/move.h \
-  /usr/include/c++/12/bits/utility.h \
   /usr/include/c++/12/initializer_list \
   /home/asingir1/cs0320/fluidCuda/include/fluid_simulation.h \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_algobase.h \
-  /usr/include/c++/12/bits/functexcept.h \
-  /usr/include/c++/12/bits/exception_defines.h \
   /usr/include/c++/12/ext/numeric_traits.h \
   /usr/include/c++/12/bits/stl_iterator_base_types.h \
   /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
@@ -180,12 +191,6 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o: /home/asingir1/cs0320/fluidC
   /usr/include/c++/12/bits/alloc_traits.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
-  /usr/include/c++/12/bits/functional_hash.h \
-  /usr/include/c++/12/bits/hash_bytes.h \
-  /usr/include/c++/12/bits/refwrap.h \
-  /usr/include/c++/12/bits/invoke.h \
-  /usr/include/c++/12/bits/stl_function.h \
-  /usr/include/c++/12/backward/binders.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/vector.tcc \
   /usr/include/c++/12/string \
@@ -223,7 +228,16 @@ CMakeFiles/fluid_sim.dir/src/fluid_simulation.cu.o: /home/asingir1/cs0320/fluidC
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/12/bits/charconv.h \
-  /usr/include/c++/12/bits/basic_string.tcc
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/algorithm \
+  /usr/include/c++/12/bits/stl_algo.h \
+  /usr/include/c++/12/bits/algorithmfwd.h \
+  /usr/include/c++/12/bits/stl_heap.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/c++/12/numeric \
+  /usr/include/c++/12/bits/stl_numeric.h \
+  /usr/include/c++/12/bit
 
 CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -441,8 +455,31 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
   /usr/include/c++/12/bits/basic_ios.tcc \
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
-  /usr/include/c++/12/bits/istream.tcc
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/fstream \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/chrono \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/ctime \
+  /usr/include/c++/12/bits/parse_numbers.h
 
+
+/usr/include/c++/12/bits/parse_numbers.h:
+
+/usr/include/c++/12/ctime:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h:
+
+/usr/include/c++/12/fstream:
 
 /usr/include/c++/12/istream:
 
@@ -477,6 +514,22 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
+
+/usr/include/c++/12/ext/atomicity.h:
+
+/usr/include/c++/12/bits/nested_exception.h:
+
+/usr/include/c++/12/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/12/bits/exception_ptr.h:
+
+/usr/include/c++/12/exception:
+
+/usr/include/c++/12/ios:
+
+/usr/include/c++/12/ostream:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_32_atomic_functions.hpp:
 
@@ -518,21 +571,21 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_20_intrinsics.hpp:
 
 /usr/include/c++/12/string:
-
-/usr/include/c++/12/ext/atomicity.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/math_functions.h:
 
 /usr/include/assert.h:
 
+/usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/12/algorithm:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -543,6 +596,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/12/bits/chrono.h:
 
 /usr/include/c++/12/clocale:
 
@@ -555,6 +610,12 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/include/c++/12/bits/exception.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/surface_indirect_functions.h:
+
+/usr/include/c++/12/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -572,7 +633,9 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/c++/12/cstdint:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
+
+/usr/include/c++/12/cstdio:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -597,8 +660,6 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/c++/12/exception:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
@@ -629,6 +690,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_20_atomic_functions.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/c++/12/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -690,11 +753,11 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/locale.h:
 
-/usr/include/c++/12/utility:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/12/bits/move.h:
+
+/usr/include/c++/12/utility:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/library_types.h:
 
@@ -738,6 +801,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/c++/12/bits/stl_numeric.h:
+
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -754,6 +819,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/host_config.h:
 
+/usr/include/c++/12/bits/stl_tempbuf.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/builtin_types.h:
@@ -761,6 +828,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/12/bits/codecvt.h:
 
 /usr/include/c++/12/bits/cpp_type_traits.h:
 
@@ -804,15 +873,11 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/sm_80_rt.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_32_atomic_functions.h:
 
 /usr/include/stdio.h:
-
-/usr/include/c++/12/bits/functional_hash.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_35_atomic_functions.h:
 
@@ -848,6 +913,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_35_intrinsics.h:
 
+/usr/include/c++/12/bits/stl_heap.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_61_intrinsics.h:
@@ -858,57 +925,77 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/sm_90_rt.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/12/iostream:
-
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/sm_90_rt.hpp:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/texture_indirect_functions.h:
 
 /usr/include/vector_types.h:
 
-/local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/cudacc_ext.h:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/12/functional:
+
+/usr/include/c++/12/bits/stl_function.h:
+
+/usr/include/c++/12/bits/std_function.h:
+
+/usr/include/builtin_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/c++/12/type_traits:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/c++/12/backward/binders.h:
 
-/usr/include/c++/12/vector:
+/usr/include/c++/12/bits/functional_hash.h:
 
-/usr/include/c++/12/bits/stl_algobase.h:
+/usr/include/c++/12/tuple:
 
-/local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/device_double_functions.h:
+/usr/include/vector_functions.h:
 
-/usr/include/c++/12/bits/functexcept.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/12/bits/string_view.tcc:
-
-/usr/include/c++/12/bits/predefined_ops.h:
-
-/usr/include/c++/12/bits/utility.h:
-
-/usr/include/c++/12/bits/invoke.h:
-
-/usr/include/c++/12/ext/string_conversions.h:
-
-/usr/include/c++/12/bits/vector.tcc:
-
-/usr/include/c++/12/bits/exception_defines.h:
+/usr/include/c++/12/bits/uses_allocator.h:
 
 /usr/include/pthread.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
+/usr/include/c++/12/bits/utility.h:
+
+/usr/include/c++/12/bits/invoke.h:
+
+/local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/device_double_functions.h:
+
+/usr/include/c++/12/bits/functexcept.h:
+
+/usr/include/c++/12/bits/string_view.tcc:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/12/bits/predefined_ops.h:
+
+/usr/include/c++/12/ext/string_conversions.h:
+
+/usr/include/c++/12/bits/vector.tcc:
+
+/usr/include/c++/12/math.h:
+
+/usr/include/c++/12/typeinfo:
+
+/usr/include/c++/12/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/12/vector:
+
+/usr/include/c++/12/numeric:
+
+/usr/include/c++/12/bits/stl_algobase.h:
+
 /usr/include/c++/12/bits/stl_iterator.h:
+
+/usr/include/c++/12/bits/uniform_int_dist.h:
 
 /local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/sm_20_intrinsics.h:
 
@@ -938,12 +1025,6 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/c++/12/bits/stl_vector.h:
 
-/usr/include/c++/12/bits/stl_function.h:
-
-/usr/include/builtin_types.h:
-
-/usr/include/c++/12/backward/binders.h:
-
 /usr/include/c++/12/bits/stringfwd.h:
 
 /usr/include/c++/12/bits/postypes.h:
@@ -953,6 +1034,8 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 /usr/include/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/12/ratio:
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
 
@@ -970,13 +1053,23 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/c++/12/bits/basic_string.tcc:
 
+/local/projects/cuda12/cuda12.2.2/targets/x86_64-linux/include/crt/cudacc_ext.h:
+
+/usr/include/c++/12/bits/stl_algo.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/12/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/12/bit:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /home/asingir1/cs0320/fluidCuda/src/main.cpp:
 
 /usr/include/crt/host_config.h:
-
-/usr/include/c++/12/bits/cxxabi_init_exception.h:
 
 /usr/include/wctype.h:
 
@@ -984,32 +1077,12 @@ CMakeFiles/fluid_sim.dir/src/main.cpp.o: /home/asingir1/cs0320/fluidCuda/src/mai
 
 /usr/include/device_types.h:
 
+/usr/include/c++/12/bits/ios_base.h:
+
+/usr/include/crt/host_defines.h:
+
 /usr/include/library_types.h:
 
 /usr/include/channel_descriptor.h:
 
 /usr/include/driver_functions.h:
-
-/usr/include/c++/12/ostream:
-
-/usr/include/vector_functions.h:
-
-/usr/include/c++/12/ios:
-
-/usr/include/c++/12/bits/exception_ptr.h:
-
-/usr/include/c++/12/math.h:
-
-/usr/include/c++/12/typeinfo:
-
-/usr/include/c++/12/bits/nested_exception.h:
-
-/usr/include/crt/host_defines.h:
-
-/usr/include/c++/12/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
-
-/usr/include/c++/12/cstdio:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h:
