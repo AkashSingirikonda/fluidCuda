@@ -27,7 +27,7 @@ python3 visualizer.py
 ```
 A sequence of cross sections in X-Y, Y-Z, and Z-X planes will be generated in the ```visualizer/plots``` folder.
 
-To viualize from binaries using our renderer, place the density, velocity magnitude, and color files in the build/offline_data folder, and set the ```offlineFileLoadedFF``` value at the top of ```fluidcube.cpp``` to true. This will generate a visualization similar to the one above.
+To visualize from binaries using our renderer, place the density, velocity magnitude, and color files in the build/offline_data folder, and set the ```offlineFileLoadedFF``` value at the top of ```fluidcube.cpp``` to true. This will generate a visualization similar to the one above.
 
 
 The only methodological difference between this and amk09/fluid is that instead of using a Gauss-Seidel solver, we use a Jacobi Kernel. This is because the Gauss-Seidel solver typically writes from data it reads to, which a Jacobi kernel does not. The Jacobi kernel however converges slower and is run for 10 solver step rather than the 4 that's used in our CPU implementation. 
