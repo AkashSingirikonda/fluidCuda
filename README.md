@@ -34,6 +34,8 @@ The only methodological difference between this and amk09/fluid is that instead 
 
 We see an up to **6.7x** speedup in the update step on CUDA. We compared the update/step methods of the cuda version to the OPEN_MP parallelized CPU version. The CUDA version runs on a GTX 1080 and the CPU version runs on a M2 Max MacBook Pro with 32GB of Unified Memory. The current cuda implementation makes use of global memory coalescing, but doesn't make use of tiling or shared memory coalescing. We hope to extend this with these optimizations in the future along with the interactive features.
 
+## Performance
+
 | Grid Size | CPU Time (ms) | CUDA Time (ms) | Speed-up (CPU / CUDA) |
 | --------- | ------------- | -------------- | --------------------- |
 | 16        | 0.9           | 1.9            | 0.47×                 |
