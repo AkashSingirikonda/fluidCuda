@@ -30,9 +30,9 @@ A sequence of cross sections in X-Y, Y-Z, and Z-X planes will be generated in th
 To visualize from binaries using our renderer, place the density, velocity magnitude, and color files in the build/offline_data folder, and set the ```offlineFileLoadedFF``` value at the top of ```fluidcube.cpp``` to true. This will generate a visualization similar to the one above.
 
 
-The only methodological difference between this and amk09/fluid is that instead of using a Gauss-Seidel solver, we use a Jacobi Kernel. This is because the Gauss-Seidel solver typically writes from data it reads to, which a Jacobi kernel does not. The Jacobi kernel however converges slower and is run for 10 solver step rather than the 4 that's used in our CPU implementation. 
+The only methodological difference between this and amk09/fluid is that instead of using a Gauss-Seidel solver, we use a Jacobi Kernel. This is because the Gauss-Seidel solver typically writes from data it reads to, which a Jacobi kernel does not. The Jacobi kernel however converges slower and is run for 10 solver steps rather than the 4 that's used in our CPU implementation. 
 
-We see an up to **6.7x** speedup in the update step on CUDA. We compared the update/step methods of the cuda version to the OPEN_MP parallelized CPU version. The CUDA version runs on a GTX 1080 and the CPU version runs on a M2 Max MacBook Pro with 32GB of Unified Memory. The current cuda implementation makes use of global memory coalescing, but doesn't make use of tiling or shared memory coalescing. We hope to extend this with these optimizations in the future along with the interactive features.
+We see an up to **6.7x** speedup in the update step on CUDA. We compared the update/step methods of the cuda version to the OPEN_MP parallelized CPU version. The CUDA version runs on a GTX 1080 and the CPU version runs on a M2 Max MacBook Pro with 32GB of Unified Memory. The current cuda implementation makes use of global memory coalescing, but doesn't make use of tiling or shared memory coalescing. We hope to extend this with these optimizations in the future along with the interactive features. The times are the average time per update averaged over the 100 steps used to generate the simulation above.
 
 ## Performance
 
